@@ -87,7 +87,7 @@
   ],
   "iics-qa-perfids":[
 	{
-      "auth-service":["GET /authz-service/.well-known/jwks.json","POST /authz-service/oauth/token"],
+      "auth-service":["hello","GET /authz-service/.well-known/jwks.json","POST /authz-service/oauth/token"],
       "containername":"authz-service",
       "logfilepath":"*/var/log/containers/auth*"
     },{
