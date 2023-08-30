@@ -1,7 +1,7 @@
 {
   "iics-qa-perfusw1":[
      {
-      "scheduler-service":["POST /scheduler-service/api/v1/Schedules","GET /scheduler-service/internal/api/v1/Jobs","POST /scheduler-service/api/v1/Schedules *and* /Jobs","PUT /scheduler-service/api/v1/Schedules","GET /scheduler-service/api/v1/Schedules","DELETE /scheduler-service/api/v1/Jobs","GET /scheduler-service/api/v1/Jobs","DELETE /scheduler-service/api/v1/Schedules","GET /scheduler-service/api/v1/Organizations *and* /Schedules"],
+      "scheduler-service":["updatedone api",""POST /scheduler-service/api/v1/Schedules","GET /scheduler-service/internal/api/v1/Jobs","POST /scheduler-service/api/v1/Schedules *and* /Jobs","PUT /scheduler-service/api/v1/Schedules","GET /scheduler-service/api/v1/Schedules","DELETE /scheduler-service/api/v1/Jobs","GET /scheduler-service/api/v1/Jobs","DELETE /scheduler-service/api/v1/Schedules","GET /scheduler-service/api/v1/Organizations *and* /Schedules"],
       "containername":"scheduler-service",
       "logfilepath":"*/var/log/containers/scheduler*"
     },
