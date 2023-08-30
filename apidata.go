@@ -2,7 +2,7 @@ package mychange
 
 import "fmt"
 
-func myupdatetesdt() {
+func Myupdatetesdt2() {
 	message := "Hello, world!"
 	fmt.Println(message)
 }
