@@ -1,0 +1,27 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Std. Dev.
+Prereq login,50,99,85,100,116,754,60,754,0.00%,1.0,9.8,95.00
+"10.5 GET /license-service/internal/api/v1/OrgLicenseAssignment('{orgId}')/EffectiveLicenses(CategoryId=%5B%22axM4g6rAAKojGYdWxciUOz%22,%22eC3LWZMwd2CihEKFtS93IB%22%5D)",332402,20,20,26,29,43,11,271,0.00%,1111.5,946.5,7.61
+10.1 GET /license-service/internal/api/v1/metering/org/('{orgId}')/usage,35934,34,34,41,45,59,23,275,0.00%,120.3,212.4,8.20
+10.4 GET /license-service/internal/api/v1/OrgLicenseAssignment('{orgId}')/EffectiveLicenses(),22461,20,20,26,29,44,11,244,0.00%,75.2,64.0,7.27
+10.6 POST /license-service/internal/api/v1/metering/org/('{orgId}')/usage,35927,40,39,47,51,63,27,299,0.00%,120.3,211.1,7.86
+10.3 GET /license-service/internal/api/v1/OrgLicenseAssignment('{orgId}')/EffectiveAppExternalId(),8983,23,23,29,33,49,13,249,0.00%,30.1,19.7,8.24
+10.2 GET /license-service/internal/api/v1/metering/org/('{orgId}')//instances,4492,25,25,32,35,49,15,222,0.00%,15.1,10.5,8.85
+10.7 GET license-service/internal/api/v1/detailedOrgHierarchy,4491,338,324,404,414,446,169,652,0.00%,15.1,318.5,51.31
+10.8 GET /license-service/internal/api/v1/LicenseDefinition('{orgId}')/OrgsWithActiveLicense(),4488,21,20,30,37,62,10,193,0.00%,15.1,9.7,10.56
+10.9 GET license-service/internal/api/v1/detailedOrgHierarchy/('{orgId}'),4486,132,77,90,97,131,13,15337,0.00%,15.1,17.6,899.95
+10.10 POST license-service/internal/api/v1/OrgLicenseAssignmentMin,4483,23,23,29,32,42,14,163,0.00%,15.9,390.3,6.24
+10.11 POST license-service/internal/api/v1/orgHierarchy/AggregateOrgCount,4483,247,246,287,296,319,146,506,0.00%,15.9,82.9,32.75
+MeterIDs,11549,0,0,1,1,1,0,59,0.00%,38.4,.0,0.80
+Abs_MeterIDs,11549,0,0,1,1,1,0,21,0.00%,38.4,.0,0.57
+Abs_orgIDs,11549,0,0,1,1,1,0,23,0.00%,38.4,.0,0.62
+Inc_MeterIDs,11549,0,0,1,1,1,0,22,0.00%,38.4,.0,0.67
+Inc_orgIDs,11549,0,0,1,1,1,0,270,0.00%,38.4,.0,2.60
+00 Login,12126,58,58,72,75,81,39,331,0.00%,40.4,403.7,10.55
+20.2 POST /metering-service/internal/api/v1/metering/org/('{orgId}')/usage/increment,6121,76,79,92,96,104,41,344,0.00%,20.4,13.9,17.00
+Increment/ Absolute meters,11548,121,132,177,188,209,40,400,0.00%,38.4,434.7,46.61
+20.1 POST /metering-service/internal/api/v1/metering/org/usage/submitabsolutemeters,3349,64,64,74,77,87,46,289,0.00%,11.2,6.5,10.65
+20.3 POST /metering-service/internal/api/v1/metering/org/usage/increment,1038,35,35,40,43,53,26,136,0.00%,3.5,2.0,6.49
+20.5 POST /metering-service/internal/api/v1/metering/exportMeteringDetailedData,577,57,57,66,69,76,41,89,0.00%,1.9,2.0,7.37
+20.4 GET /metering-service/internal/api/v1/metering/definitions,462,33,33,55,60,66,12,83,0.00%,1.5,45.3,16.86
+20.6 GET /metering-service/internal/api/v1/metering/ExportMeteringData/{jobId},557,18,18,23,26,30,11,37,0.00%,1.9,2.8,4.29
+TOTAL,556203,29,21,45,72,273,0,15337,0.00%,925.6,1578.6,90.99

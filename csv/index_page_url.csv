@@ -1,0 +1,14 @@
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=pc2cloudUI/index.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252Fmona HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=https://qa-pod1.perf.infaqa.com/pc2cloudUI/index.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252Fproducts%252FintegrationDesign%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252FdiUI%252Fproducts%252FintegrationDesign%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252Fproducts%252Fadminister%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252FcloudUI%252Fproducts%252Fadminister%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%2Fprojres%2Fapps%2Fapp-integration%2FintegrationDesign%2Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252FcloudUI%252Fproducts%252Fmonitor%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%2Fprojres%2Fapps%2Fapp-integration%2FintegrationConsole%2Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252Fdmsui%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252Fproducts%252Fmonitor%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252FcloudUI%252Fproducts%252Foperate%252Findex.html HTTP/1.1
+/cloudshell/internal/api/v1/isProductURLAccessible?indexPageUrl=%252Fpc2cloudUI%252Findex.html HTTP/1.1

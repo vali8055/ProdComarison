@@ -1,0 +1,5 @@
+Label,# Samples,Average,Median,90% Line,95% Line,99% Line,Min,Max,Error %,Throughput,Received KB/sec,Std. Dev.
+00 login,4704,59,58,76,78,85,41,620,0.00%,26.2,240.5,14.22
+16.1 GET /content-repo/internal/api/v1/Contents?$filter=contentType%20eq%20'BUNDLE'%20and%20lastUpdatedTime%20ge%202024-09-09T00:00:00Z,3762,58,58,71,73,80,41,154,0.00%,21.0,345.5,9.78
+16.2 GET /content-repo/internal/api/v1/Contents('{value}')/Data/$value,941,34,34,42,44,49,0,68,0.11%,5.3,9.3,5.57
+TOTAL,9407,56,57,74,76,83,0,620,0.01%,52.4,593.9,13.98
